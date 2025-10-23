@@ -86,3 +86,19 @@ os
     pip install tensorflow numpy pandas matplotlib opencv-python
     ```
 
+3. Prepare the Dataset
+
+Ensure your dataset follows this exact directory structure:
+
+```text
+chest_xray_Dataset/
+├── train/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+├── test/
+│   ├── NORMAL/
+│   └── PNEUMONIA/
+└── val/
+    ├── NORMAL/
+    └── PNEUMONIA/
+
