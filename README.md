@@ -2,7 +2,7 @@
 
 This project implements a Convolutional Neural Network (CNN) model using Transfer Learning to classify chest X-ray images into two categories: NORMAL and PNEUMONIA. The model uses a pre-trained ResNet50 architecture fine-tuned for this specific medical imaging task.
 
-##3Model Architecture
+### 3Model Architecture
 
 The classification task is achieved using a pre-trained ResNet50 model, which acts as a powerful feature extractor.
 
@@ -22,7 +22,7 @@ Dropout (0.5 rate)
 
 Final Dense output layer (1 unit, 'sigmoid' activation) for binary classification.
 
-###📊Dataset and Data Preparation
+### 📊Dataset and Data Preparation
 
 The model is trained on an X-ray image dataset structured into train, test, and val directories.
 
@@ -56,7 +56,7 @@ Shear (shear_range=0.2)
 
 Brightness Adjustment (brightness_range=(0.8, 1.2))
 
-###⚙️Technologies and Dependencies
+### ⚙️Technologies and Dependencies
 
 The project is built using the following key libraries:
 
