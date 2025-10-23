@@ -2,7 +2,7 @@
 
 This project implements a Convolutional Neural Network (CNN) model using Transfer Learning to classify chest X-ray images into two categories: NORMAL and PNEUMONIA. The model uses a pre-trained ResNet50 architecture fine-tuned for this specific medical imaging task.
 
-### 3Model Architecture
+### Model Architecture
 
 The classification task is achieved using a pre-trained ResNet50 model, which acts as a powerful feature extractor.
 
